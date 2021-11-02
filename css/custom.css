@@ -112,7 +112,8 @@ body{
     padding: 3rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
-    width:  100%;
+    min-width:  320px;
+    max-width:  900px;
     text-align: justify;
     border: solid steelblue ;
     

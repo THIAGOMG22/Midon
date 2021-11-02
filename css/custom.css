@@ -6,7 +6,7 @@ html {
 body{
 
 }
-
+/*header*/
 #header {
     width: 100%;    
     background-color: transparent;
@@ -31,12 +31,13 @@ body{
         color: #003d41;
         letter-spacing: 0.9px;
 }
+/*header*/
 
-
+/*slider*/
 #slider{
     width: 100%;
     height: 36rem;
-    margin-top: -2rem;
+    
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +60,63 @@ body{
     max-width: 320PX;
     color: white;
 }
+/*slider*/
+/*servicos*/
+#servicos{
+    width: 100%;
+   height: 45rem;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
+}
+.card{
+    margin: 5rem;
+    border: solid 2px steelblue;
+}
+.card-img-top{
+    height: 45%;
+    width: 100%;
+}
+
+
+/*servicos*/
+/*sobre*/
+#sobre{
+    position: relative;
+    height: 45rem;
+}
+
+#img-sobre{
+    position: absolute;
+    opacity: 0.6;
+}
+#sobre h1{
+    position: relative;
+    left: 8rem;
+}
+#sobre-txt{
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+    min-width: 80px;
+    max-width: 500px;
+    font-size: 2rem;
+    text-align: justify;
+    color: #034646;
+}
+#contato-btn{
+    position: absolute;
+    width: 25%;
+    top: 30rem;
+    left: 8rem;
+    border: solid 1px #034646;
+    color: white;
+    background-color: #034646;
+}
+
+/*sobre*/
+
 
 /*---------------*/
 

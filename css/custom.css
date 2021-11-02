@@ -1,18 +1,18 @@
 @import url(./config.css);
-body{
-    
-} 
-::-webkit-scrollbar { 
-    display: none; 
-}
+
 html {
     font-family: 'Roboto', sans-serif;;
+}
+body{
+
 }
 
 #header {
     width: 100%;    
     background-color: transparent;
+    cursor: pointer;
     transition: ease-out 0.2s;
+    
 }
 
 #header.navbar-collapse {
@@ -31,131 +31,33 @@ html {
         color: #003d41;
         letter-spacing: 0.9px;
 }
-#img-slide-logo{
-    position: relative;
-    padding-bottom: 3%;
-    height: 4rem;
-    left: -3px;
-}
 
-#img-slide{
-    position: relative;
-    left: 80%;
-}
 
 #slider{
+    width: 100%;
+    height: 36rem;
+    margin-top: -2rem;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    top: -1.5rem;
-    padding: 10%;
+    padding: 5rem 8rem;
     background-color: #034646;
     background-size: contain;
-    height: 42rem;
+    
     
 }
-.col-md-4.align-self-center{
-    position: absolute;
-    top: 8rem;
-    left: 15rem;
-    text-align: left;
+#img-slide-logo{
+    height: 2reM;
+    min-width: 100px;
+    max-width: 280PX;
+
 }
 
-#slider h2 {
-    position: relative;
-    left: -1%;
+
+#slider-text h5, h2{
+    min-width: 100px;
+    max-width: 320PX;
     color: white;
-    font-weight: 900;    
-}
-
-#slider h4 {
-    font-size: 18px;
-    text-transform: uppercase;
-
-}
-
-
-div.row{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    justify-content: space-between ;
-    
-        
-}
-#link-serv{
-    size: 5pt;
-    transition: all 0.1s;
-}
-#link-serv:hover{
-    color: var(--third);
-    left: 2px;
-}
-#sobre{
-    margin-top: 2rem;
-    margin-bottom: -10rem;
-    height: 40rem;
-    width: 100%;
-}
-#img-sobre{
-    position: relative;
-    top: -3rem;
-    left: -10rem;
-    border-radius: 100%;
-    border: solid rgba(66, 120, 165, 0.842) ;
-    background-color:#328a8f ;
-}
-.col-lg-4{
-    position: relative;
-    top: 10rem;
-    left: -13rem;
-    border-radius: 100%;
-    border: solid steelblue ;
-    margin-top: -5rem;
-    padding: 28px;
-    height: 40vh;
-    width: 40vh;
-    text-align: center;
-    background-color: #328a8f;
-    transition: all ease 0.6s;
-}
-.col-lg-4:hover{
-    letter-spacing: 0.1px;
-    
-    
-}
-.col-lg-4 .title, #sobre-txt{
-    color: white;
-}
-#sobre-text{
-    position: relative;
-    top: -15rem;
-    left: 80%;
-}
-
-#servicos{
-    height: 30rem;
-    padding: 3rem;
-
-}
-#servicos a{
-    font-size: 14pt;
-}
-#servicos a:hover{
-    color: #4bc4ca;
-}
-.col-lg-3{
-    padding: 5px;
-    text-align: center;
-    height: 18rem;
-    width: 15rem;
-    background-color: white;
-    border: 10px;
-    border: solid steelblue ;
-    transition: all ease 0.6s;
-}
-.col-lg-3:hover{
-    letter-spacing: 00.8px;
-    border: solid rgba(66, 120, 165, 0.842) ;
 }
 
 /*---------------*/

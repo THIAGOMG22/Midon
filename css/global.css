@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    color: #038d94;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: blanchedalmond;
+
+}
+
+
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1,4rem;
+    padding-right: 1,4rem;
+}
+#footer{
+    margin-top: 2rem;
+    bottom: -1rem;
+}

@@ -1,0 +1,252 @@
+@media (min-width:992px) {
+    #header.nav-link {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+    #header.navbar-collapse{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggler{
+
+    }
+
+   /*slide*/
+    #img-slide-logo{
+        padding-bottom: 3%;
+        height: 3rem;
+        left: -3px;
+    }
+    
+    #img-slide{
+        position: absolute;
+        top: 5rem;
+        left: 60%;
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    #slider{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        top: -1.5rem;
+        background-color: #034646;
+        background-size: contain;
+        height: 27rem;
+        
+    }
+    .col-md-4.align-self-center{
+        position: absolute;
+        top: 8rem;
+        left: 3rem;
+        text-align: left;
+        color: white;
+    }
+    
+
+    
+    #slider  {
+        font-size: 18px;
+        text-transform: uppercase;
+    
+    }
+    /*slide*/
+    
+    /*sobre*/
+    #sobre{
+        height: 30rem;
+        width: 100%;
+    }
+    #img-sobre{
+        position: relative;
+        top: 0;
+        left: -11rem;
+        height: 40vh;
+        width: 50vh;
+        border-radius: 100%;
+        border: solid rgba(66, 120, 165, 0.842) ;
+        background-color:#328a8f ;
+    }
+    .col-lg-4{
+        position: relative;
+        top: -15rem;
+        left: 5rem;
+        border-radius: 100%;
+        border: solid steelblue ;
+        margin-top: 3rem;
+        height: 30vh;
+        width: 30vh;
+        padding: 20px;
+        font-size: 11pt;
+        text-align: center;
+        background-color: #328a8f;
+        transition: all ease 0.6s;
+    }
+    .col-lg-4:hover{
+        letter-spacing: 0.1px;
+        
+        
+    }
+    .col-lg-4 .title, #sobre-txt{
+        color: white;
+    }
+    #sobre-text{
+        position: relative;
+        top: -28rem;
+        left: 82%;
+    }
+    /*sobre*/
+
+    /*serviços*/
+    #servicos{
+        height: 30rem;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        
+    
+    }
+    #servicos a{
+        font-size: 18pt;
+    }
+    
+    .col-lg-3{
+        margin-top: 40px;
+        text-align: center;
+        height: 18rem;
+        width: 10rem;
+        background-color: white;
+        border: 10px;
+        border: solid steelblue ;
+        transition: all ease 0.6s;
+    }
+    .col-lg-3 p{
+        font-size: 12pt;
+    }
+    
+    /*serviços*/
+}
+@media screen and (max-width: 600px){
+
+    
+   /*slide*/
+   #img-slide-logo{
+    padding-bottom: 3%;
+    height: 3rem;
+    left: -3px;
+}
+
+#img-slide{
+    position: absolute;
+    top: 8rem;
+    left: 75%;
+    width: 8rem;
+    height: 9rem;
+}
+
+#slider{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: -1.5rem;
+    background-color: #034646;
+    background-size: contain;
+    height: 27rem;
+    
+    
+}
+.col-md-4.align-self-center{
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    text-align: left;
+    color: white;
+}
+
+/*slide*/
+
+/*sobre*/
+#sobre{
+    height: 30rem;
+    width: 100%;
+    
+}
+#img-sobre{
+    position: relative;
+    top: 0;
+    left: -13rem;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 100%;
+    border: solid rgba(66, 120, 165, 0.842) ;
+    background-color:#328a8f ;
+}
+.col-lg-4{
+    position: relative;
+    top: -15rem;
+    left: 0rem;
+    border-radius: 100%;
+    border: solid steelblue ;
+    margin-top: 4rem;
+    height: 27vh;
+    width: 27vh;
+    padding: 22px;
+    font-size: 10pt;
+    text-align: center;
+    background-color: #328a8f;
+    transition: all ease 0.6s;
+}
+.col-lg-4:hover{
+    letter-spacing: 0.1px;
+    
+    
+}
+.col-lg-4 .title, #sobre-txt{
+    color: white;
+}
+#sobre-text{
+    position: relative;
+    top: -29rem;
+    left: 98%;
+    padding: 25px;
+}
+/*sobre*/
+
+/*serviços*/
+#servicos{
+    height: 45rem;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    
+
+}
+#servicos a{
+    font-size: 18pt;
+}
+
+.col-lg-3{
+    margin-top: 40px;
+    text-align: center;
+    height: 18rem;
+    width: 10rem;
+    background-color: white;
+    border: 10px;
+    border: solid steelblue ;
+    transition: all ease 0.6s;
+}
+.col-lg-3 p{
+    font-size: 12pt;
+}
+
+/*serviços*/
+
+}
